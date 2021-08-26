@@ -1,0 +1,98 @@
+.cart{
+    padding:10rem 0;
+}
+.cart-set{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap:3rem;
+}
+.cart-card{
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+    padding:1.8rem;
+    padding-right: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    margin: 1rem 0;
+}
+.card-desc img{
+    width:5rem;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+.col2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.sum-cart{
+    background: #eee;
+    margin: 1rem 0;
+    border-radius: 8px;
+}
+.card{
+    padding:2rem 1.5rem;
+}
+.total{
+    padding: 2rem 0;
+    border-top: 1px solid #333;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color:#333;
+    font-family: 'poppins-m';
+}
+.addbtns{
+    border: none;
+    outline: none;
+    width:50px;
+    height:25px;
+    background: rgb(101, 197, 241);
+    color: #fff;
+    margin: 0 0.3rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.removebtns{
+    border: none;
+    outline: none;
+    width:50px;
+    height:25px;
+    background: rgb(238, 19, 30);
+    color: #fff;
+    margin: 0 0.3rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btns{
+        border: none;
+        outline: none;
+        width:80%;
+        background: rgb(1, 201, 191);;
+        display: block;
+        margin: 0 auto;
+        color: #fff;
+        padding: 1rem 0;
+        cursor: pointer;
+        transition: all 650ms;
+    }
+    button:hover{
+        background: rgb(1, 87, 87);
+    }
+
+    @media screen and (max-width:580px){
+        .cart-set{
+            display: grid;
+            grid-template-columns:1fr;
+            grid-gap:3rem;
+        }
+    }

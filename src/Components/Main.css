@@ -1,0 +1,41 @@
+.products{
+    padding-top: 10rem;
+}
+.heading{
+    font-size: 2rem;
+    padding:2rem 0;
+    font-family: 'poppins-r';
+}
+.product-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:3rem;
+}
+
+@media screen and (max-width:760px){
+    section{
+        padding:2.5rem 0;
+    }
+    .products{
+        padding-top: 2rem;
+    }
+    .product-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:3rem;
+    }
+}
+
+@media screen and (max-width:480px){
+    section{
+        padding:1rem 0;
+    }
+    .products{
+        padding-top: 1rem;
+    }
+    .product-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap:3rem;
+    }
+}
